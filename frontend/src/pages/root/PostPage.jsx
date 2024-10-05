@@ -14,7 +14,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { Loader2 } from "lucide-react";
-import moment from "moment";
+import * as moment from "moment";
 import React, { useState } from "react";
 import { FaCommentDots, FaHeart } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
